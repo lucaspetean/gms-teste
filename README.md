@@ -64,25 +64,27 @@ Para configurar e executar o projeto localmente, siga os passos abaixo:
 Para executar os testes utilizando a interface gráfica do Cypress, utilize o seguinte comando:
    ```bash
    npx cypress open
-  
+   ```
+
 Isso abrirá a interface gráfica onde você poderá selecionar e executar os testes.
 
 Para executar os testes no modo headless (sem interface gráfica), utilize:
    ```bash
    npx cypress run
+   ```
 
 ### Teste de Exemplo
 - **Arquivo**: [cypress/e2e/spec.cy.js](cypress/e2e/spec.cy.js)
 - **Descrição**: Exemplo de teste end-to-end.
 
 Exemplo de teste:
-```javascript
-describe('Teste de exemplo', () => {
-  it('Deve fazer algo', () => {
-    // Implementação do teste...
-  });
-});
-
+   ```javascript
+   describe('Teste de exemplo', () => {
+     it('Deve fazer algo', () => {
+       // Implementação do teste...
+     });
+   });
+   ```
 ## Contribuição
 Se você quiser contribuir com este projeto, por favor siga as etapas abaixo:
 
