@@ -23,7 +23,9 @@ O projeto GMS-Teste tem como objetivo realizar testes de qualidade (QA) no siste
 A estrutura do projeto é a seguinte:
 
 gms-teste/
+
 ├── cypress/
+
 │ ├── e2e/
 │ │ └── spec.cy.js
 │ ├── fixtures/
