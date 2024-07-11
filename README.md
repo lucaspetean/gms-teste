@@ -27,14 +27,25 @@ gms-teste/
 ├── cypress/
 
 │ ├── e2e/
+
 │ │ └── spec.cy.js
+
 │ ├── fixtures/
+
 │ │ └── example.json
+
 │ ├── support/
+
 │ │ └── commands.js
+
 │ │ └── e2e.js
-├── .gitignore
+
+├──.gitignore
+
 ├── README.md
+
 ├── cypress.config.js
+
 ├── package-lock.json
+
 └── package.json
